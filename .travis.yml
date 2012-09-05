@@ -1,6 +1,12 @@
 language: node_js
 node_js:
   - 0.8
+notifications:
+  irc:
+    use_notice: true
+    skip_join: true
+    channels:
+      - "irc.freenode.org#angularjs"
 before_script:
   - export DISPLAY=:99.0
   - sh -e /etc/init.d/xvfb start
