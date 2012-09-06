@@ -9,8 +9,8 @@ basePath = '..';
 
 // list of files / patterns to load in the browser
 files = [
-  JASMINE,
-  JASMINE_ADAPTER,
+  'node_modules/testacular/adapter/lib/jasmine.js',
+  'node_modules/testacular/adapter/jasmine.js',
   'test/lib/jquery/jquery-1.7.2.js',
   'test/lib/jquery/jquery-ui-1.8.18.js',
   'test/lib/angular-1.0.1/angular.js',
@@ -46,7 +46,7 @@ colors = true;
 
 // level of logging
 // possible values: LOG_DISABLE || LOG_ERROR || LOG_WARN || LOG_INFO || LOG_DEBUG
-logLevel = LOG_DEBUG;
+logLevel = 3;
 
 // enable / disable watching file and executing tests whenever any file changes
 autoWatch = false;
